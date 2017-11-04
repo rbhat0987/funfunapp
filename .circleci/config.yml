@@ -8,8 +8,8 @@ jobs:
       - checkout
       - run: npm install
       - run: npm test
-  deployment:
-    prod:
-      branch: master
-      heroku:
-        appname: funfunappp    
+deployment:
+  prod:
+    branch: master
+    heroku:
+      appname: funfunappp    
